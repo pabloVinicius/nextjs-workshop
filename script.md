@@ -105,7 +105,7 @@
 - O que NÃO está disponível server side?
   - Objetos e APIs característicos do browser como `document`, `window`, `navigator` etc
 
-### Componentes e features Built-in
+## Componentes e features Built-in
 - Componentes
   - Link
   - Router
