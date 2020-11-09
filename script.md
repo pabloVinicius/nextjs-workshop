@@ -4,16 +4,21 @@
 
 - Framework para React para desenvolvimento Front-end Web
 - Possibilita criação de funções serveless para acesso a ferramentas backend
-- Diferenças gerais com o React "puro"
-    - Ganhos principalmente em produção (mudanças menores em desenvolvimento)
-        - Perfomance
-        - Indexação: react puro roda diretamente no browser (client side) dificultando indexação (crawling e scrapping de buscadores, tags open graph para redes sociais etc)
-        - Outros componentes built-in, como:
-          - `Head`: Permite melhorias no SEO de páginas diferentes (ex: embed de links)
-          - `Link`: permite fazer navegação declarativa (similar ao mesmo componente do `react-router-dom`)
-    - Mudança no fluxo de acesso
-        - React puro: Usuário -> React (browser) -> Interface
-        - NextJS: Usuário -> Servidor Node.js (server-side rendering) -> Interface (browser)
+- Permite começar com zero configuração
+  - Disponibiliza um script `create-next-app` que provê a configuração básica inicial do projeto
+  - Similar ao `create-react-app` nesse quesito
+- Permite trabalhar facilmente com server-side rendering e geração estática da aplicação, inclusive alternativas híbridas, utilizando ambas as formas
+- Ganhos principalmente em produção (mudanças menores em desenvolvimento)
+  - Perfomance
+  - Indexação: react puro roda diretamente no browser (client side) dificultando indexação (crawling e scrapping de buscadores, tags open graph para redes sociais etc)
+- Possui uma série de features built-in, como:
+  - Componentes para SEO
+  - Roteamento
+  - Internacionalização
+  - etc
+- Mudança no fluxo de acesso
+  - React puro: Usuário -> React (browser) -> Interface
+  - NextJS (SSR/SSG): Usuário -> Servidor Node.js (server-side rendering) -> Interface (browser)
 
 ## Roteamento
 
@@ -117,6 +122,7 @@
   - next/image
 - Internationalization
 - React 17 support
+- Typescript
 
 
 ## Outras características
